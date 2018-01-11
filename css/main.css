@@ -74,6 +74,165 @@ nav .nav li a:hover{
     margin-bottom: 0;
     font-size: 26px!important;
     font-weight: bold;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+
+/*** SALES ***/
+.sale{
+    background: url('../img/bluecanvaspattern3.jpg') repeat;
+    height: auto;
+}
+
+.sale h2{
+    padding: 1.5rem;
+    font-weight: bolder;
+    margin-top: 0px;
+    color: #fff;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.sale h2{
+    margin-top: 0px;
+}
+
+.sale h2 span{
+    display: block;
+    font-size: 24px;
+    margin-top: 0;
+    color: #ff3333;
+	text-shadow: 2px 2px 4px #ccc;
+}
+
+
+.tab-container{
+    background-color: #fff;
+    padding: 0 !important;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+    opacity: 1;
+}
+
+
+.tab-container:hover,
+.tab-container:focus
+{
+     box-shadow: 0 0 6px rgba(2, 95, 232, .5),0 0 6px rgba(2, 95, 232, .5),0 0 6px rgba(2, 95, 232, .5);       
+}
+
+.tab-menu{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.tab-menu .list-group{
+    margin-bottom: 0;
+}
+
+.tab-menu .list-group>a{
+    margin-bottom: 0;  
+}
+
+.tab-menu .list-group>a:hover{
+    background-color: red;    
+}
+
+.tab-menu .list-group>a p{
+    font-size: 1rem;  
+    color: #000;
+    font-weight: bold;
+}
+
+.tab-menu div.list-group>a.active p{
+    color:#fff;
+}
+
+.tab-menu div.list-group>a:hover p{
+    color:#fff;
+}
+
+.tab-menu div.list-group>a .glyphicon,
+.tab-menu div.list-group>a .fa {
+    color: red;
+}
+
+.tab-menu div.list-group>a:hover .glyphicon,
+.tab-menu div.list-group>a:hover .fa {
+    color: #fff;
+}
+
+
+.tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+}
+
+.tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+}
+
+.tab-menu div.list-group>a.active,
+.tab-menu div.list-group>a.active .glyphicon,
+.tab-menu div.list-group>a.active .fa{
+  background-color: red;
+  background-image: red;
+  color: #fff;
+}
+
+/* This is the arrow */
+.tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid red;
+}
+
+.tab-content{
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.tab-content img{
+    border-radius: 10px;
+    min-width:100%!important;
+}
+
+.tab-content h4{
+    margin-top: 20px;
+}
+
+
+/*.tab-content h4 span,*/
+.tab-content h5{
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+    font-size: 1.625rem;
+    line-height: 1.25;
+    text-shadow: 1px 1px 1px #000, 1px 1px 1px #000;
+}
+
+.tab-content h5{
+    display:none;
+}
+
+.tab .tab-content:not(.active){
+  display: none;
+}
+
+.tab{
+    padding-left:0!important;
 }
 
 
