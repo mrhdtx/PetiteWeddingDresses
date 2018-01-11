@@ -10,6 +10,10 @@ section h2{
     color: #000;
 }
 
+
+
+
+
 /*** PROMOTION ***/
 
 .promotion{
@@ -39,23 +43,75 @@ section h2{
 
 
 
+
 /*** SUPPORT CONTACT FORM ***/
 
 .support{
     background: url('../img/contact.jpg') no-repeat center center;
 }
 
+
 .support h2{
     padding: 1.5rem;
     font-weight: bolder;
-}
-
-.support h2{
+    margin-top: 0px;
     color: #fff;
     line-height: 1.5;
     text-shadow: 2px 2px 4px #000000;
 }
 
+.support .container-fluid{
+    margin-top: 1.2rem;
+}
+
+.support .form-horizontal{
+    background-color: rgba(0,0,0,.1);
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.support .form-horizontal:hover,
+.support .form-horizontal:focus
+{
+     box-shadow: 0 0 6px rgba(255, 152, 0, 1),0 0 6px rgba(255, 152, 0, 1),0 0 6px rgba(255, 152, 0, 1);       
+}
+
+.support .form-horizontal p{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ff9800;
+    text-shadow: 1px 1px 3px #222, 1px 1px 1px #000;
+}
+
+
+.support .form-horizontal .form-group{
+    padding: 5px 0;
+}
+
+
+.support .form-horizontal textarea{
+    resize:none;
+}
+
+.support .form-horizontal .btn{
+    border-radius: 20px;
+    padding: 6px 20px;
+    float: right;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000, 1px 1px 1px #000;
+}
+
+.support .form-horizontal .btn:hover{
+    box-shadow: 0 0 6px rgba(92, 184, 92, 1);
+}
+        
+.support #ok,
+.support #nope{
+    display:none;
+    text-align: center;
+    color: #fff;
+}
 
 /*** FOOTER ***/
 footer p{
