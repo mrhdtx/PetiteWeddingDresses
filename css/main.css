@@ -16,6 +16,36 @@ section h2{
 }
 
 
+/*** NAVIGATION BAR ***/
+nav{
+    background-color: rgba(0, 103, 255, .9)!important;
+    margin-bottom: 0!important;
+    border-bottom: 0!important;
+} 
+
+nav .navbar-toggle{
+    border-color: #fff!important;
+    background-color: rgba(77, 148, 255, 1)!important;
+}
+
+nav .navbar-toggle span{
+        background-color: #fff!important;
+}
+
+nav .nav li{
+    padding-top: 3px!important;
+}
+
+nav .nav li a{
+    color: #fff!important;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+
+nav .nav li a:hover{
+    background-color: rgba(255, 152, 0, .9)!important;
+}
 
 
 
