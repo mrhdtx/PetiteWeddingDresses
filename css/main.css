@@ -1,0 +1,74 @@
+body{
+    background-color: #e3e3e3;
+}
+
+section{
+    height: 550px;
+}
+
+section h2{
+    color: #000;
+}
+
+/*** PROMOTION ***/
+
+.promotion{
+    background: url('../img/dress5.jpg') no-repeat 43%;
+    background-position: fixed;
+    position: relative;
+}
+
+.promotion img{
+    position:absolute;
+    right: 3%;
+    top: 35%;
+    height: 125px;
+    width: 125px;
+}
+
+.promotion h2{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    background-color: rgba(255, 152, 0, 1);
+    padding:10px 20px;
+    margin-bottom: 0;
+    font-size: 26px!important;
+    font-weight: bold;
+}
+
+
+
+/*** SUPPORT CONTACT FORM ***/
+
+.support{
+    background: url('../img/contact.jpg') no-repeat center center;
+}
+
+.support h2{
+    padding: 1.5rem;
+    font-weight: bolder;
+}
+
+.support h2{
+    color: #fff;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/*** FOOTER ***/
+footer p{
+    font-size: .8rem;
+    background-color: rgba(0,0,0,.9);
+    color: #ff9800;
+    margin-bottom: 0;
+    padding: 1.25rem;
+    text-shadow: 2px 2px 9px #444;
+}
+
+
+
+
+
+
