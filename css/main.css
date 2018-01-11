@@ -55,6 +55,7 @@ nav .nav li a:hover{
     background: url('../img/dress5.jpg') no-repeat 43%;
     background-position: fixed;
     position: relative;
+	height: 100vh;
 }
 
 .promotion img{
@@ -68,7 +69,7 @@ nav .nav li a:hover{
 .promotion h2{
     position: absolute;
     color: white;
-    bottom: 0;
+    bottom: 10vh;
     background-color: rgba(255, 152, 0, 1);
     padding:10px 20px;
     margin-bottom: 0;
